@@ -197,6 +197,7 @@ jobs:
           compress_format: ${{ env.COMPRESS_FORMAT }}
           silent_log: ${{ env.SILENT_LOG }}
           auto_patch: ${{ env.AUTO_PATCH }}
+          kernel_config: ${{ env.KERNEL_CONFIG }}
 
       - name: Upload Kernel to Release
         uses: ncipollo/release-action@main
